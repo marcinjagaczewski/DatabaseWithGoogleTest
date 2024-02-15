@@ -1,0 +1,30 @@
+1)przechowywanie rekordów dotyczące pomieszczeń w domu
+2)każde pomieszczenie wyświetkal
+    -typ pomieszczenia
+    -liczbę gniazdek 230V,
+    -liczbę pkt na lampy,
+    -czy będzie sterowanie oświetleniem zdalnie?,
+    -liczbę par ethernetowych,
+3)wyświetl wszystkie rekordy,
+4)szukanie po nazwie pomieszczenia,
+5)usuwanie pomieszczen wraz z danymi
+6)edycja pomieszczeń
+
+//
+rooms.cpp/hpp
+Zarządza jednym memberem
+    -metoda get zwraca dane membera,
+    -edytuje membera,
+
+dataBase.cpp/hpp
+Zarządza wszystkimi memberami
+    -dodaje membera,
+    -usuwa membera,
+    -umożliwia edytowanie membera,
+    -pokazuje wszystkie membery,
+    -sortuje wszystkie membery
+
+fileManager.cpp/hpp
+Zarządza plikiem gdzie są zapisane wszystkie membery
+    -odczytuje wszystkie membery,
+    -zapisuje wszystkie membery,
