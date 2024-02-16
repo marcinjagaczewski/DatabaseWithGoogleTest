@@ -9,11 +9,12 @@ namespace fileManager
     {
         public:
             explicit FileManager(std::string nameFile);
+            bool saveData(std::string data);
+            bool loadData(std::string &data);
+
             ~FileManager();
-            bool fileExist();
 
         private:
-            FILE* m_file;
-            std::string m_fileName{};
-    };    
+            std::fstream m_file;
+    };
 }
